@@ -69,7 +69,7 @@ makeColNames <- function(symbol="GLENCR", field="VALID_MID,VALID_BID_OFFER") {
 ### Error and Warning Message Handling Functions
 #############
 ### Compose xts data column names from symbol and field names
-writeMessage <- function(txt.msg, file.message="S:/Data/R_Data/Messages.txt") {
+writeMessage <- function(txt.msg, file.message=paste(data.dir, "Messages.txt", sep="")) {
   cat(paste(txt.msg, collapse=";"), file=file.message, sep="\n", append=TRUE)
 }
 ### End writeMessage
