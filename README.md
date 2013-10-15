@@ -1,4 +1,3 @@
 alphaLib
 ========
-
-alphaModel library
+Core alphaModel library files
