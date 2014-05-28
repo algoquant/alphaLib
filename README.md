@@ -4,9 +4,14 @@ alphaLib is a library of R functions for defining trading strategies and for per
 alphaLib can be thought of as a simpler and lighter version of the [quantstrat][1] package from the [TradeAnalytics][2] project.  
 alphaLib functions can be used in conjunction with other packages like [TTR][3], [PerformanceAnalytics][4], and [quantmod][5].  
 
-List of files
+List of files:
 * **alphaModel.R** contains the core alphaModel library functions
 * **chartLib.R** contains functions for time series data plotting
+* **chartLib.new.R** contains new versions of functions for time series data plotting
+* **dataLib.R** contains functions for reading and writing time series data from/to OneTick
+* **dataLib.R** contains functions for time series data plotting
+
+
 
 
 [1]: https://r-forge.r-project.org/scm/viewvc.php/pkg/quantstrat/?root=blotter
