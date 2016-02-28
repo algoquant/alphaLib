@@ -1,0 +1,8 @@
+This is a diary of major file changes and backups in this directory:
+C:\Develop\R\alphaLib
+
+Date		Event
+02/21/16	created logfile.txt
+02/21/16	utilLib.R: added functions apply_xts and apply_rolling and performed some formatting
+02/28/16	chartLib.new.R: added functions chart_xts and chart_xts_panels
+
