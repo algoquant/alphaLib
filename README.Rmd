@@ -1,0 +1,19 @@
+---
+title: alphaLib library for Backtesting Trading Strategies
+author: Jerzy Pawlowski (algoquant)
+---
+
+The *alphaLib* library is collection of *R* functions that allow specifying and backtesting trading strategies.
+The *alphaLib* library is not an *R* package, so the source code in the files must be loaded using the function `source()`.
+
+The script files for loading the *alphaLib* library, and for performing backtests using the *alphaLib* library are collected in the directory: [C:\\Develop\\R\\scripts](C:\\Develop\\R\\scripts)
+
+Here are some of the source code files of the *alphaLib* library: 
+
++ *alphaModel.R* is the main collection of *R* functions,
+
++ *defaults.R* contains the default parameters used by the *alphaLib* library,
+
++ *riskLib.R* contains risk and statistical functions,
+
++ *optimLib.R* contains optimization functions,

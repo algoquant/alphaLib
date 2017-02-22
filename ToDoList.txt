@@ -1,0 +1,42 @@
+############
+# ToDo list for package alphaLib: backtesting trading strategies
+
+This is a diary of major file changes and backups in this directory:
+C:\Develop\R\alphaLib
+
+### scripts for package building
+# Install package from source on local drive
+install.packages(pkgs="C:/Develop/R/alphaLib", repos=NULL, type="source")
+# Install package from source on local drive using R CMD
+R CMD INSTALL C:\Develop\R\alphaLib
+# Install package from github
+devtools::install_github(repo="algoquant/alphaLib", force=TRUE)
+# build package reference manual from *.Rd files
+system("R CMD Rd2pdf C:/Develop/R/alphaLib")
+R CMD Rd2pdf C:\Develop\R\alphaLib
+
+
+
+###########
+### tasks to-do
+
+- [ ] 
+
+- [ ] 
+
+- [ ] 
+
+- [ ] 
+
+- [ ] 
+
+- [ ] 
+
+- [x] 02/21/16	created logfile.txt
+
+- [x] 02/21/16	utilLib.R: added functions apply_xts and apply_rolling and performed some formatting
+
+- [x] 02/28/16	chartLib.new.R: added functions chart_xts and chart_xts_panels
+
+
+

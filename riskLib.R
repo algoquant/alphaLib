@@ -300,7 +300,7 @@ persistenceIntervals <- function(ts.price, agg.window=NULL) {
 # Aggregate return data
     {
       width <- max(1,trunc(agg.window*length(ts.price)))
-#  ts.price.mean <- na.omit(apply.rolling(ts.price, width=width, FUN="mean"))
+#  ts.price.mean <- na.omit(rollapply(ts.price, width=width, FUN="mean"))
 #  ts.price.mean <- na.omit(runMean(ts.price, n=agg.window))
       ts.price.mean <- na.omit(.Call("runSum", ts.price, n=width))/width
     }
